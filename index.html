@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Stock Crypto App</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="DriveCare" name="keywords" />
+    <meta content="DriveCare" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Topbar Start -->
+    <div class="container-fluid d-none d-lg-block">
+      <div class="row align-items-center py-1 px-xl-5">
+        <div class="col-lg-3">
+          <a href="" class="text-decoration-none">
+            <img class="img-fluid-logo" src="img/Logo.png" alt="" />
+          </a>
+        </div>
+
+        <div class="col-lg-9 text-right">
+          <div class="d-inline-flex align-items-center">
+            <i class="fa fa-2x fa-solid fa-book text-primary mr-3"></i>
+            <div class="text-left">
+              <h6 class="font-weight-semi-bold mb-1">Our Project ID</h6>
+              <small class="font-weight-semi-bold mb-1">23-260</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid">
+      <div class="row border-top px-xl-5">
+        <div class="col-lg-12">
+          <nav
+            class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0"
+          >
+            <a href="" class="text-decoration-none d-block d-lg-none">
+              <h1 class="m-0"><span class="text-primary">STOCK</span>CRYPTO</h1>
+            </a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-between"
+              id="navbarCollapse"
+            >
+              <div class="navbar-nav py-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="aboutus.html" class="nav-item nav-link">About Us</a>
+                <a href="documets.html" class="nav-item nav-link">Documents</a>
+              </div>
+              <a
+                class="btn btn-primary py-2 px-5 ml-auto d-none d-lg-block"
+                href="contact.html"
+                >Contact Us</a
+              >
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 mb-5">
+      <div
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#header-carousel"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#header-carousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="min-height: 300px">
+            <img
+              class="position-relative w-100"
+              src="img/dash.jpeg"
+              style="min-height: 300px; object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex align-items-center justify-content-center"
+            >
+              <div class="p-5" style="width: 100%; max-width: 900px">
+                <h1 class="display-4 text-white mb-md-4">
+                  WELCOME TO STOCK-CRYTO-APP
+                </h1>
+                <h5 class="text-white mb-md-3">
+                The purpose of the STOCK-CRYTO-APP recommendation system is to leverage state-of-the-art transformer-based language
+                models to provide users with personalized investment recommendations for both stocks and cryptocurrencies. By analyzing
+                vast amounts of data and user preferences, it aims to assist investors in making informed financial decisions,
+                optimizing their portfolios, and maximizing returns
+                </h5>
+                <a
+                  href="about.html"
+                  class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- <div class="carousel-item" style="min-height: 300px">
+            <img
+              class="position-relative w-100"
+              src="img/carousel33-.png"
+              style="min-height: 300px; object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex align-items-center justify-content-center"
+            >
+              <div class="p-5" style="width: 100%; max-width: 900px">
+                <h1 class="display-4 text-white mb-md-4">PROJECT SCOPE</h1>
+                <h5 class="text-white mb-md-3">
+                  <ul>
+                    <li>
+                      Analyze the situation of a particular accident using the
+                      images of vehicles in an accident and send emergency
+                      messages to parties.
+                    </li>
+                    <li>
+                      Identifying police officers who need to be transferred and
+                      where to transfer.
+                    </li>
+                    <li>
+                      Traffic Violation Reporting when a traffic violation
+                      happened.
+                    </li>
+                    <li>
+                      Accident prediction and early warning before a possible
+                      accident occurs.
+                    </li>
+                  </ul>
+                </h5>
+                <a
+                  href="about.html"
+                  class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div> -->
+          <div class="carousel-item" style="min-height: 300px">
+            <img
+              class="position-relative w-100"
+              src="img/carousel-3.jpeg"
+              style="min-height: 300px; object-fit: cover"
+            />
+            <div
+              class="carousel-caption d-flex align-items-center justify-content-center"
+            >
+              <div class="p-5" style="width: 100%; max-width: 900px">
+                <h1 class="display-4 text-white mb-md-4">RELATED DOCUMENTS</h1>
+                <h5 class="text-white mb-md-3">
+                  You can find all the documents in word format and all the
+                  presentations slides we have created for our presentations at
+                  the end of the each stages. Inside this section you can go
+                  through our topic assessment, project charter, project
+                  proposal, status document I and II, research paper and its'
+                  publication details, final report of the group and each member
+                  and the research poster. Apart from that, project proposal,
+                  prograss presentation I and II and final presentation slides
+                  can be found in ppt fromat.
+                </h5>
+                <a
+                  href="#1"
+                  class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <img
+              class="img-fluid rounded mb-4 mb-lg-0"
+              src="img/stock-market.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-7">
+            <div class="text-left mb-4">
+              <h5
+                class="text-primary text-uppercase mb-3"
+                style="letter-spacing: 5px"
+              >
+                STOCK-CRYTO-APP
+              </h5>
+              <h1>Why we built this?</h1>
+            </div>
+            <p>
+            STOCK-CRYTO-APP was created to offer personalized investment guidance by harnessing advanced technology. It simplifies
+            portfolio management, enhances financial decision-making, and adapts to changing market conditions. This user-friendly
+            platform leverages data-driven insights to help users make informed choices.
+            </p>
+            <a
+              href="http://www.ijcaonline.org/archives/volume185/number5/32700-2023922687"
+              target="_blank"
+              class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2"
+              >Read Research Paper</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Document Start -->
+    <div class="container-fluid py-5">
+      <section id="1">
+        <div class="container pt-5 pb-3">
+          <div class="text-center mb-5">
+            <h1>RELATED DOCUMENTS</h1>
+          </div>
+          <div class="mb-5">
+            <h5 class="text-primary mb-3" style="letter-spacing: 5px">
+              Documents
+            </h5>
+            <h6 class="text-primary mb-3" style="letter-spacing: 5px">
+              Please find all documents related to this project below.
+            </h6>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/backgrounCard.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1IcLDpxUxOHp-CCWzE2wKDBPkNI1ojxBq?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">
+                    Topic Assessment
+                  </h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-6.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1SAp8te0CTUwTjN9Od2XjxyhiBYN_UBSM?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">Project Charter</h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-2.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1PBQl-kZQ_SjMUWz8OEOnJ2EunicYZbAF?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">
+                    Project Proposal
+                  </h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-3.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1MF7zmJIPV6zhhXAy0ipoIFgMi39HEb5b?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">
+                    Status Documents I
+                  </h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-4.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1xh532Nap1AXS1q9RVrgWPOslYpUWEXqC?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">
+                    Status Documents II
+                  </h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/backgrounCard.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1KVBhDkVdv8SxLM8IlPbHCoO-pHhWhSaG?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">Research Paper</h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-6.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1bv2DsJt8DNLZa6Fzvu3B9n8a2Wia4MTb?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">Final Report</h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-7.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1NaLAPKwoFiLc253tDNy6tBwiu9UjalJ9?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">Final Report</h4>
+                  <span>Individual</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-8.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1ypaKVKoYaBOi-nuSw1pyFdyf247REGXp?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">Poster</h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-5">
+            <h5 class="text-primary mb-3" style="letter-spacing: 5px">
+              Presentations
+            </h5>
+            <h6 class="text-primary mb-3" style="letter-spacing: 5px">
+              Please find all presentation slides(.ppt) related to this project
+              below.
+            </h6>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/backgrounCard.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1jlOS7djkMg9MRnU7RIhZPMqtEVUIMFvr?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">
+                    Project Proposal
+                  </h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-6.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1EWeQAGFHahroPPJhuO0dveoaSx5iPcXI?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">
+                    PPI Presentation
+                  </h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-2.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1gNMj5tP_VNDOhu0wfsAOVg9e0Uzvqxz9?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">
+                    PPII Presentation
+                  </h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div
+                class="cat-item position-relative overflow-hidden rounded mb-2"
+              >
+                <img class="img-fluid" src="img/cat-3.jpg" alt="" />
+                <a
+                  class="cat-overlay text-white text-decoration-none"
+                  href="https://drive.google.com/drive/folders/1OVFmAzw7XjEDUBSkmczjYnToEcw8HQJQ?usp=sharing"
+                  target="_blank"
+                >
+                  <h4 class="text-white font-weight-medium">
+                    Final Presentation
+                  </h4>
+                  <span>Group</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Document Start -->
+
+    <!-- Team Start -->
+
+    <div class="container-fluid py-5">
+      <div class="container pt-5 pb-3">
+        <div class="text-center mb-5">
+          <h1>Meet Our Team</h1>
+          <h5
+            class="text-primary text-uppercase mb-3"
+            style="letter-spacing: 5px"
+          >
+            Supervisors
+          </h5>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 text-center team mb-4">
+            <div class="team-item rounded overflow-hidden mb-2">
+              <div class="team-img position-relative"></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center team mb-4">
+            <div class="team-item rounded overflow-hidden mb-2">
+              <div class="team-img position-relative">
+                <img class="img-fluid" src="img/jeewakasir.jpeg" alt=""  />
+                <div class="team-social">
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="bg-secondary p-3">
+                <h5>Mr. Jeewaka Perera
+</h5>
+                <p class="m-0">Supervisor</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center team mb-4">
+            <div class="team-item rounded overflow-hidden mb-2">
+              <div class="team-img position-relative">
+                <img class="img-fluid" src="img/dilshanSir.jpg" alt="" />
+                <div class="team-social">
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="bg-secondary p-4">
+                <h5>Dr. Dilshan De Silva
+</h5>
+                <p class="m-0">Co-Supervisor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mb-5">
+          <h5
+            class="text-primary text-uppercase mb-3"
+            style="letter-spacing: 5px"
+          >
+            Team Members
+          </h5>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-3 text-center team mb-4">
+            <div class="team-item rounded overflow-hidden mb-2">
+              <div class="team-img position-relative">
+                <img class="img-fluid" src="img/sanju.jpg" alt="" height="150"/>
+                <div class="team-social">
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="bg-secondary p-4">
+                <h5>M.T Sanju</h5>
+                <p class="m-0">Group Leader</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center team mb-4">
+            <div class="team-item rounded overflow-hidden mb-2">
+              <div class="team-img position-relative">
+                <img class="img-fluid" src="img/hasindu.jpg" alt="" height="150"/>
+                <div class="team-social">
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="bg-secondary p-4">
+                <h5>H.C Liyange</h5>
+                <p class="m-0">Group Member</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center team mb-4">
+            <div class="team-item rounded overflow-hidden mb-2">
+              <div class="team-img position-relative">
+                <img class="img-fluid" src="img/dilini.jpg" alt="" height="150"/>
+                <div class="team-social">
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="bg-secondary p-4">
+                <h5>K.I.K.R.D.N Kandakkulama</h5>
+                <p class="m-0">Group Member</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 text-center team mb-4">
+            <div class="team-item rounded overflow-hidden mb-2">
+              <div class="team-img position-relative">
+                <img class="img-fluid" src="img/keshara.jpg" alt="" height="150"/>
+                <div class="team-social">
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-outline-light btn-square mx-1" href="#"
+                    ><i class="fab fa-linkedin-in"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="bg-secondary p-4">
+                <h5>W.K.K.B Walisundara</h5>
+                <p class="m-0">Group Member</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Team End -->
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-fluid py-5">
+      <div class="container py-5">
+        <div class="text-center mb-5">
+          <h5
+            class="text-primary text-uppercase mb-3"
+            style="letter-spacing: 5px"
+          >
+            DriveCare
+          </h5>
+          <h2>
+            Automated and Sustainable Points Manipulation System for Drivers and
+            Traffic Police Officers
+          </h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="owl-carousel testimonial-carousel">
+              <div class="text-center">
+                <img
+                  class="position-relative w-100"
+                  src="img/panel2.png"
+                  style="min-height: 420px; object-fit: cover"
+                />
+              </div>
+              <div class="text-center">
+                <img
+                  class="position-relative w-100"
+                  src="img/panel3.png"
+                  style="min-height: 420px; object-fit: cover"
+                />
+              </div>
+              <div class="text-center">
+                <img
+                  class="position-relative w-100"
+                  src="img/panel1.png"
+                  style="min-height: 420px; object-fit: cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+    <!-- Footer Start -->
+
+    <div
+      class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5"
+      style="border-color: rgba(256, 256, 256, 0.1) !important"
+    >
+      <div class="row">
+        <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+          <p class="m-0 text-white">
+            &copy;
+            <a
+              href="https://www.ijcaonline.org/archives/volume185/number5/32700-2023922687"
+              >STOCK-CRYTO-APP</a
+            >
+            All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-lg-6 text-center text-md-right">
+          <ul class="nav d-inline-flex">
+            <li class="nav-item">
+              <a class="nav-link text-white py-0" href="#"
+                >Designed by 23-260 Team
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="fa fa-angle-double-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
